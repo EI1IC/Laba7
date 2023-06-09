@@ -131,6 +131,7 @@
     <ClInclude Include="XmlService.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="pugixml-1.13\src\pugixml.cpp" />
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="XmlService.cpp" />
