@@ -1,0 +1,8 @@
+.vs/
+.log/
+Debug/
+/coverage/
+access.log
+json.hpp
+pugixml.hpp
+pugixml-1.13
