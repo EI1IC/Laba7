@@ -131,12 +131,19 @@
     <ClInclude Include="JsonService.h" />
     <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
+    <ClInclude Include="XmlService.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pugixml-1.13\src\pugixml.cpp" />
     <ClCompile Include="JsonService.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Service.cpp" />
     <ClCompile Include="Weather.cpp" />
+    <ClCompile Include="XmlService.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="weather.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="weather.json" />
